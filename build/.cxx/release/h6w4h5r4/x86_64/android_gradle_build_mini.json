@@ -1,0 +1,20 @@
+{
+  "buildFiles": [
+    "/root/snap/flutter/common/flutter/packages/flutter_tools/gradle/src/main/scripts/CMakeLists.txt"
+  ],
+  "cleanCommandsComponents": [
+    [
+      "/root/Android/Sdk/cmake/3.22.1/bin/ninja",
+      "-C",
+      "/root/StudioProjects/TapKit/build/.cxx/release/h6w4h5r4/x86_64",
+      "clean"
+    ]
+  ],
+  "buildTargetsCommandComponents": [
+    "/root/Android/Sdk/cmake/3.22.1/bin/ninja",
+    "-C",
+    "/root/StudioProjects/TapKit/build/.cxx/release/h6w4h5r4/x86_64",
+    "{LIST_OF_TARGETS_TO_BUILD}"
+  ],
+  "libraries": {}
+}

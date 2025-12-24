@@ -1,0 +1,2 @@
+/root/StudioProjects/TapKit/build/.cxx/release/h6w4h5r4/armeabi-v7a/CMakeFiles/edit_cache.dir
+/root/StudioProjects/TapKit/build/.cxx/release/h6w4h5r4/armeabi-v7a/CMakeFiles/rebuild_cache.dir
