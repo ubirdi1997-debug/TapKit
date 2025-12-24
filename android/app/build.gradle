@@ -50,7 +50,9 @@ android {
 
     buildTypes {
         release {
-            signingConfig signingConfigs.debug
+            // Release builds should use a proper signing configuration
+            // Configure signing via key.properties file or environment variables
+            // See: https://flutter.dev/docs/deployment/android#signing-the-app
         }
     }
 }
