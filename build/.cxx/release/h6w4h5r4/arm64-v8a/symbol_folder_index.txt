@@ -1,1 +1,0 @@
-/root/StudioProjects/TapKit/build/app/intermediates/cxx/release/h6w4h5r4/obj/arm64-v8a
