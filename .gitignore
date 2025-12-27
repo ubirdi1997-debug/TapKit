@@ -30,3 +30,17 @@ bin/
 
 ### Android ###
 android/local.properties
+android/.gradle/
+android/app/build/
+android/build/
+build/
+
+### Flutter ###
+.dart_tool/
+.flutter-plugins
+.flutter-plugins-dependencies
+.packages
+.pub-cache/
+.pub/
+/pubspec.lock
+*.iml
