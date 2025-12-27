@@ -45,7 +45,16 @@ class SettingsScreen extends StatelessWidget {
         ),
         const SizedBox(height: 16),
         const Text(
-          'Company Name: TapKit Solutions',
+          'Company Name: OPALWISH (OPC) PRIVATE LIMITED',
+          textAlign: TextAlign.center,
+          style: TextStyle(
+            fontSize: 14,
+            fontWeight: FontWeight.w500,
+          ),
+        ),
+        const SizedBox(height: 8),
+        const Text(
+          'Email: opalwishopc1997@gmail.com',
           textAlign: TextAlign.center,
           style: TextStyle(
             fontSize: 14,
