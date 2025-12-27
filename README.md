@@ -1,92 +1,107 @@
 # TapKit
 
-Calculator, Notes & QR Scanner — all in one tap.
+**Calculator, Notes & QR Scanner — all in one tap.**
 
-TapKit is a fast, flat-UI utility app that provides Calculator, Notes, and QR Scanner in one place with a one-tap experience. The app is minimal, premium, and extremely fast. It's fully offline-first, requires no login, no cloud sync, and no ads.
+TapKit is a comprehensive utility app that combines three essential tools in one convenient application. Whether you need to perform calculations, take quick notes, or scan QR codes, TapKit has you covered.
 
-## Features
+## 📱 Features
 
-### Calculator
-- Flat UI calculator
-- Supports basic arithmetic, percentage, and GST calculation
-- Local calculation history
-- One-tap "Save to Notes" for any result
-- Copy result button
-- Subtle haptic feedback
+### 🧮 Calculator
+- **Full-Featured Calculator**: Perform basic arithmetic operations (addition, subtraction, multiplication, division)
+- **Calculation History**: View your previous calculations with a complete history
+- **Clean Interface**: User-friendly design with an intuitive keypad layout
+- **Copy Results**: Easily copy calculation results for use elsewhere
 
-### Notes
-- Quick text notes with auto timestamp
-- Pin notes
-- Search notes by keyword
-- Save calculator results into notes
-- Save QR scan results into notes
-- Optional note lock using simple PIN
-- Optional temporary notes that auto-delete after user-defined time
-- Local storage only (no cloud, no login)
+### 📝 Notes
+- **Create & Edit Notes**: Write and manage your notes effortlessly
+- **Search Functionality**: Quickly find notes using the built-in search feature
+- **Organized Display**: View all your notes in a clean, organized list
+- **Local Storage**: All notes are stored securely on your device
+- **Timestamps**: Each note includes creation and modification timestamps
 
-### QR Scanner
-- Scan QR codes only
-- Clean scanning UI
-- Show scanned result clearly
-- Actions: Copy, Open link (if URL), Save to Notes
-- Optional QR scan history with clear option
-- Camera permission used only when user taps scan
+### 📷 QR Code Scanner
+- **Fast Scanning**: Instantly scan QR codes and barcodes using your device camera
+- **Auto-Detection**: Automatically detects and processes QR codes
+- **Scan History**: Keep track of all your scanned codes
+- **URL Launching**: Automatically opens URLs found in QR codes
+- **Copy to Clipboard**: Easily copy scanned content for later use
 
-## Signature Feature – Chain Actions
-- Calculator result → auto save to Notes
-- QR scan result → auto save to Notes
-- Notes → detect numbers and allow quick calculation
+## 🎨 Design Features
 
-## Getting Started
+- **Modern UI**: Clean and intuitive user interface
+- **Dark Mode Support**: Automatic dark mode based on system preferences
+- **Smooth Animations**: Polished animations for a better user experience
+- **Responsive Design**: Optimized for various screen sizes
 
-1. Ensure Flutter is installed (latest stable version)
-2. Install dependencies:
-   ```bash
-   flutter pub get
-   ```
+## 🔒 Privacy & Security
 
-3. Run the app:
-   ```bash
-   flutter run
-   ```
+- **100% Local Storage**: All your data (notes, calculator history, QR scan history) is stored locally on your device
+- **No Internet Required**: The app works completely offline (except when opening URLs from QR codes)
+- **No Data Collection**: We don't collect, store, or transmit any personal information
+- **No Analytics**: No tracking or analytics services
+- **Camera Permission**: Only used for QR code scanning and requested only when needed
 
-## Permissions
+## 📋 Requirements
 
-- **Camera**: Required only for QR Scanner feature. Permission is requested when the user opens the QR Scanner screen.
+- Android 5.0 (API level 21) or higher
+- Camera (optional, only required for QR code scanning)
 
-## Architecture
+## 📦 Installation
 
-The app follows clean architecture principles with feature-based folder structure:
+### From Google Play Store
+Download TapKit directly from the Google Play Store (coming soon).
 
-```
-lib/
-  core/
-    models/
-    services/
-    theme/
-  features/
-    calculator/
-    notes/
-    qr_scanner/
-  screens/
-  main.dart
-```
+### Manual Installation (APK)
+1. Download the latest APK file from the releases section
+2. Enable "Install from Unknown Sources" in your Android settings
+3. Open the downloaded APK file and follow the installation prompts
 
-## State Management
+## 🚀 Getting Started
 
-The app uses Provider for state management.
+1. **Launch the App**: Open TapKit from your app drawer
+2. **Navigate**: Use the bottom navigation to switch between Calculator, Notes, and QR Scanner
+3. **Calculator**: Tap numbers and operators to perform calculations
+4. **Notes**: Tap the "+" button to create a new note, tap on existing notes to edit
+5. **QR Scanner**: Tap the QR Scanner tab and point your camera at a QR code
 
-## Local Storage
+## 🛠️ Technical Details
 
-The app uses Hive for local storage of notes, calculator history, and QR scan history.
+- **Framework**: Flutter
+- **State Management**: Provider
+- **Local Storage**: Hive
+- **Package Name**: com.tapkit.app
+- **Minimum SDK**: Android 5.0 (API 21)
+- **Target SDK**: Android 14 (API 34)
 
-## Requirements
+## 📄 License
 
-- Flutter SDK: >=3.0.0 <4.0.0
-- Android: Minimum SDK 21
-- iOS: iOS 11.0+
+Copyright © 2024 OPALWISH (OPC) PRIVATE LIMITED. All rights reserved.
 
-## License
+## 📧 Contact & Support
 
-This project is created for demonstration purposes.
+For support, feature requests, or bug reports, please contact us:
 
+- **Company**: OPALWISH (OPC) PRIVATE LIMITED
+- **Email**: opalwishopc1997@gmail.com
+
+## 🔄 Version History
+
+### Version 1.0.0
+- Initial release
+- Calculator with history
+- Notes with search functionality
+- QR Code Scanner with scan history
+- Dark mode support
+- Settings and About dialog
+
+## 🙏 Acknowledgments
+
+Built with Flutter and the following open-source packages:
+- Provider (State Management)
+- Hive (Local Database)
+- Mobile Scanner (QR Code Scanning)
+- URL Launcher (Opening URLs)
+
+---
+
+**Note**: This app is designed to work completely offline. Your data remains private and secure on your device. We respect your privacy and don't collect any personal information.
